@@ -1,0 +1,12 @@
+setup.py
+core/__init__.py
+core/engine.py
+core/miner.py
+gui/__init__.py
+gui/dashboard.py
+sqli_analyzer.egg-info/PKG-INFO
+sqli_analyzer.egg-info/SOURCES.txt
+sqli_analyzer.egg-info/dependency_links.txt
+sqli_analyzer.egg-info/entry_points.txt
+sqli_analyzer.egg-info/requires.txt
+sqli_analyzer.egg-info/top_level.txt

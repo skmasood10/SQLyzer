@@ -1,0 +1,2 @@
+[console_scripts]
+sqli-gui = sqli_analyzer.main_gui:main

