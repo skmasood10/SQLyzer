@@ -37,4 +37,4 @@ logs/
 *.pth
 
 campaigns/
-payloads.json/
+payloads.json
