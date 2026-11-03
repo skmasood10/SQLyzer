@@ -1,0 +1,40 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.local
+.env.*
+*.pem
+*.key
+
+# Python Caches & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Database & Local Logs
+*.sqlite3
+*.db
+*.log
+logs/
+
+# Model Weights & Large Data Artifacts (if applicable)
+*.h5
+*.pkl
+*.onnx
+*.pth
+
+/campaigns
+/payloads.json
