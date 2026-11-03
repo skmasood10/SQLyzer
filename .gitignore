@@ -36,5 +36,5 @@ logs/
 *.onnx
 *.pth
 
-/campaigns
-/payloads.json
+campaigns/
+payloads.json/
